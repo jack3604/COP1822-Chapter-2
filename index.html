@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Objectives Example</title>
+        <!-- External Stylesheet example -->
+
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- Internal Stylesheet example -->
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Inline style example -->
+        <header style="background-color: #d7d710; padding: 10px;">
+            <h1>Welcome to my CSS Example webpage!</h1>
+        </header>
+
+        <section class="content">
+            <h2>Understanding CSS Styling</h2>
+            <p>This section demonstrates various CSS styling techniques.</p>
+            <div class="intro">
+                <p>Let's explore:</p>
+                <ul>
+                    <li><a href="#stylesheet">Types of Stylesheets</a></li>
+                    <li><a href="#selectors">Selectors and styles</a></li>
+                    <li><a href="#list-styles">List styles and spacing</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="stylesheet" class="section-highlight">
+            <h2>Types of Stylesheets</h2>
+            <p>We can use external, internal, and inline styles in HTML documents.</p>
+            <p class="note" title="Important">This paragraph has a title attribute.</p>
+        </section>
+
+        <section id="selectors">
+            <h2>Selectors and Styles.</h2>
+            <!-- Inline style -->
+            <p style="color: #008080;">This text is colored using an inline style attribute.</p>
+            <p class="text-styled">This text is styles using an external Stylesheet.</p>
+        </section>
+
+        <section id="list-styles">
+            <h2>List Styles and Spacing.</h2>
+            <!--
+            The class attribute give the external Stylesheet a class to reference.
+            The class attribute is referenced with a period (.) in the css file. -->
+            <ul class="styled-list">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; Adisson Buchanan 2024 CSS Learning</p>
+            <!-- Pseudo-element (::after) used to insert content -->
+            <div class="insert-content"></div>
+        </footer>
+    </body>
+</html>
