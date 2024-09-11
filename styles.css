@@ -4,10 +4,11 @@ body{
     margin: 0;
     padding: 0;
     background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
 }
 
 section.content h2{
-    color: #266cd5;
+    color: #0056b3;
 }
 
 p[title]{
@@ -21,21 +22,21 @@ p[title]{
     color: #2c3e50
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
+ul.styled-list{
+    list-style: square;
+    padding: 20px;
 }
 
-.styled-list li{
-    margin-bottom: 20px;
-
+ul.styled-list li{
+    margin-left: 10px;
 }
 
 a:hover{
-    color: orangered;
+    color: #ff6347;
     text-decoration: underline;
 }
 
-.insert-content::after{
+div.insert-content::after{
     content: "Thank you for visiting out website!";
     display: block;
     margin-top: 10px;
@@ -44,6 +45,7 @@ a:hover{
     color: #2e8b57;
 }
 
-.content{
-
+section.section-highlight{
+    background-color: #e0f7fa;
+    padding: 10px;
 }
